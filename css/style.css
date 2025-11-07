@@ -117,6 +117,11 @@ a {
   border-radius: 10px;
   background-color: #f8f8f8;
   box-shadow: 0px 6px #c2c2c24d;
+  margin-top: 20px;
+}
+.card:hover {
+  transition: 2s ease;
+  transform: scale(1.2);
 }
 .cardcomponents {
   max-width: 90%;
@@ -157,4 +162,27 @@ a {
   font-size: 25px;
   color: #29b24e;
   transform: translate(0px, -10px);
+}
+footer {
+  max-width: 100%;
+  background-color: #29b24e;
+  height: 200px;
+  border-radius: 20px;
+  margin-top: 70px;
+}
+.footerbar {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  color: #ffffff;
+}
+.lastline {
+  color: white;
+  justify-content: center;
+  display: flex;
+}
+.mobilenav {
+  display: none;
 }
