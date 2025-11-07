@@ -192,10 +192,7 @@ h6 {
   color: #29b24e;
   font-size: 15px;
 }
-.price {
-  display: flex;
-  justify-content: end;
-}
+
 .dolars {
   font-size: 25px;
   color: #29b24e;
