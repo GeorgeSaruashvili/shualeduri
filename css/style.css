@@ -100,3 +100,61 @@ a {
   bottom: 4px;
   right: 190px;
 }
+.cardtitle {
+  margin: 30px;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1450px;
+  margin: 0 auto;
+  gap: 22px;
+}
+.card {
+  max-width: 345px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  box-shadow: 0px 6px #c2c2c24d;
+}
+.cardcomponents {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.card img {
+  max-width: 100%;
+  margin: 10px auto;
+  position: relative;
+}
+.vip {
+  position: absolute;
+  top: 5%;
+  left: 8%;
+  background-color: #29b24e;
+  border-radius: 15px;
+  color: white;
+  font-size: 10px;
+  width: 60px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.homesize {
+  display: flex;
+  justify-content: space-between;
+}
+.card p {
+  color: #29b24e;
+  font-size: 15px;
+}
+.price {
+  display: flex;
+  justify-content: end;
+}
+.dolars {
+  font-size: 25px;
+  color: #29b24e;
+  transform: translate(0px, -10px);
+}
