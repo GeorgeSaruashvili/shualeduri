@@ -21,7 +21,9 @@ a {
   margin: 20px auto;
   max-width: 1400px;
 }
-
+.mobilesearch {
+  display: none;
+}
 .hbutton {
   background-color: #29b24e;
   border-radius: 5px;
