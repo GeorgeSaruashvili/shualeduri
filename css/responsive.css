@@ -18,7 +18,7 @@
     border-radius: 50px;
   }
   .material-symbols-outlined {
-    transform: translate(13px, 15px);
+    transform: translate(1px, 15px);
   }
 
   .search-conteiner {
@@ -38,6 +38,9 @@
   .main-absolute {
     font-size: 20px;
     left: 10%;
+  }
+  .main-absolute p {
+    font-size: 17px;
   }
   .mainphoto {
     width: 90%;
