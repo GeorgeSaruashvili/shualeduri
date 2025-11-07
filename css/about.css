@@ -36,6 +36,7 @@ a {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 .img-conteiner {
   height: 700px;
@@ -93,6 +94,7 @@ a {
   display: flex;
   flex-direction: row;
   gap: 150px;
+  flex-wrap: wrap;
 }
 h6 {
   opacity: 60%;
@@ -110,12 +112,7 @@ h6 {
   flex-direction: column;
   gap: 10px;
 }
-.dolar {
-  font-size: 25px;
-  color: #29b24e;
-  transform: translate(0px, -10px);
-  margin-top: 100px;
-}
+
 .message {
   border: 1px solid #29b24e;
   width: 150px;
@@ -138,15 +135,21 @@ h6 {
   align-items: center;
   gap: 200px;
 }
-.kiambu {
-  opacity: 60%;
+.lastline span {
+  color: black;
+}
+.dolar {
+  font-size: 25px;
+  color: #29b24e;
+  transform: translate(0px, -10px);
+  margin-top: 100px;
 }
 .cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 1500px;
-  margin: 40px auto;
+  max-width: 1450px;
+  margin: 0 auto;
   gap: 22px;
 }
 .card {

@@ -1,61 +1,45 @@
 @media (max-width: 768px) {
-  header nav {
-    display: none;
-  }
-  .header-button {
-    display: none;
-  }
   .header-conteiner {
-    display: flex;
-    justify-content: space-between;
-    max-width: 90%;
+    display: none;
   }
-  .mobilesearch {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-color: #f8f8f8;
-    border-radius: 50px;
-  }
-  .material-symbols-outlined {
-    transform: translate(1px, 15px);
+  .main-conteiner {
+    height: auto;
   }
 
-  .search-conteiner {
-    display: none;
-  }
-  header img {
-    max-width: 90%;
-  }
-  .mainimg {
-    max-width: 100%;
-    height: 500px;
-  }
-  .mainpage {
-    display: flex;
-    flex-wrap: wrap-reverse;
-  }
-  .main-absolute {
-    font-size: 20px;
-    left: 10%;
-  }
-  .main-absolute p {
-    font-size: 17px;
-  }
-  .mainphoto {
-    width: 90%;
-    margin: 0 auto;
-  }
-  .conteiner-forms {
+  .img-conteiner {
     width: 100%;
-    margin: 0 auto;
+    height: auto;
+  }
+  .discription-conteiner {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+  .leftside {
+    gap: 2px;
+  }
+  .rightside {
+    gap: 2px;
+  }
+  .lastline {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+  .message {
+    width: 100%;
+  }
+  .call {
+    width: 100%;
+  }
+  .buttons {
+    display: inline-block;
+    width: 90%;
   }
   .card {
     width: 100%;
     margin: 0 auto;
-  }
-  .support {
-    display: none;
   }
   .footerbar {
     justify-content: space-between;
@@ -86,7 +70,6 @@
   }
   .mobilenav {
     background-color: #ffffff;
-
     border-radius: 20px;
     border-bottom: none;
   }
@@ -106,5 +89,8 @@
   }
   .sell {
     transform: translate(20px, -20px);
+  }
+  .support {
+    display: none;
   }
 }

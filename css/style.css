@@ -179,6 +179,7 @@ footer {
   justify-content: space-between;
   padding-right: 20px;
   color: #ffffff;
+  align-items: center;
 }
 .lastline {
   color: white;
